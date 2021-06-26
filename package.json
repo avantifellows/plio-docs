@@ -1,0 +1,25 @@
+{
+  "name": "plio-docs",
+  "version": "1.0.0",
+  "description": "This repo contains Plio's documentation (served as a static site on S3)",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "deploy-staging": "vuepress build docs && aws --profile plio-s3-bot --region ap-south-1 s3 sync ./docs/.vuepress/dist s3://plio-docs-staging --delete --acl public-read",
+    "deploy": "vuepress build docs && aws --profile plio-s3-bot --region ap-south-1 s3 sync ./docs/.vuepress/dist s3://plio-docs --delete --acl public-read"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avantifellows/plio-docs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/avantifellows/plio-docs/issues"
+  },
+  "homepage": "https://github.com/avantifellows/plio-docs#readme",
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.19"
+  }
+}
