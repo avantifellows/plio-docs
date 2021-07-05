@@ -1,9 +1,8 @@
 # Plio Docs
 
-This repository contains the documentation and guides for [Plio](https://plio.in). The docs can be found [here](https://docs.plio.in).
+This repository contains the documentation and guides for [Plio](https://plio.in). The docs can be found [here](https://docs.plio.in). This is built using [VuePress](https://v2.vuepress.vuejs.org/).
 
-## Contributing
-This is built using [VuePress](https://v2.vuepress.vuejs.org/)
+## Deployment
 
 ### Serve locally
 - Clone the repo and run `npm install`.
@@ -15,6 +14,8 @@ This is built using [VuePress](https://v2.vuepress.vuejs.org/)
 
 ### Deploy on AWS S3 (staging / prod)
 - Run `yarn deploy-staging` or `yarn deploy` to build the static files and push the files to the S3 bucket.
+
+## Contributing
 
 ### Add a new top level section
 - To add a new section to the docs, create a folder with the appropriate name inside `./docs`.

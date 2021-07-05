@@ -1,6 +1,6 @@
 module.exports = {
     lang: 'en-US',
-    title: 'Plio Docs',
+    title: 'Plio',
     head: [['link', { rel: 'icon', href: 'https://plio-assets.s3.ap-south-1.amazonaws.com/images/logo.svg' }]],
 
     themeConfig: {
