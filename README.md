@@ -20,7 +20,7 @@ This is built using [VuePress](https://v2.vuepress.vuejs.org/)
 - To add a new section to the docs, create a folder with the appropriate name inside `./docs`.
 - Add a `README.md` inside the created folder. Write your content there.
 - Add a path to the `sidebar` array inside `themeConfig` in the `docs/.vuepress/config.js` file. 
-- For example, if the added section's name is `new-section`, the path that will be added to the `sidebar` array will be `/new-section/`
+- For example, if the added section's name is `new-section`, the path that should be added to the `sidebar` array will be `/new-section/`
 
 ### Add a subsection to an existing `.md` file
 - There are two ways. If the content to be added is smaller in size/length, you can directly add it into the parent `.md` file.
