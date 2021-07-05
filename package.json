@@ -21,5 +21,8 @@
   "homepage": "https://github.com/avantifellows/plio-docs#readme",
   "devDependencies": {
     "vuepress": "^2.0.0-beta.19"
+  },
+  "dependencies": {
+    "markdown-it-include": "^2.0.0"
   }
 }
