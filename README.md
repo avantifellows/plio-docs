@@ -3,7 +3,7 @@
 This repository contains the documentation and guides for [Plio](https://plio.in). The docs can be found [here](https://docs.plio.in).
 
 ## Contributing
-This webapp is built using [VuePress](https://v2.vuepress.vuejs.org/)
+This is built using [VuePress](https://v2.vuepress.vuejs.org/)
 
 ### Serve locally
 - Clone the repo and run `npm install`.
