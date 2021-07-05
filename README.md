@@ -1,6 +1,6 @@
 # Plio Docs
 
-This repository contains the documentation and guides for [Plio](https://plio.in)
+This repository contains the documentation and guides for [Plio](https://plio.in). The docs can be found [here](https://docs.plio.in).
 
 ## Contributing
 This webapp is built using [VuePress](https://v2.vuepress.vuejs.org/)
