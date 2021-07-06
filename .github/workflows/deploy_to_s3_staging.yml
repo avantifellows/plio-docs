@@ -12,11 +12,16 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
 
+    - name: Extract branch name
+      shell: bash
+      run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
+      id: extract_branch
+
     - name: vuepress-build
       uses: jenkey2011/vuepress-deploy@master
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        TARGET_BRANCH: ${GITHUB_REF##*/}
+        TARGET_BRANCH: ${{ steps.extract_branch.outputs.branch }}
         BUILD_SCRIPT: yarn && yarn docs:build
         BUILD_DIR: docs/.vuepress/dist/
 
