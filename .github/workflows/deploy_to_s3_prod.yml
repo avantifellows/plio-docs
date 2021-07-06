@@ -1,3 +1,5 @@
+# This workflow will build the vuepress static files
+# and upload them to the given s3 bucket
 name: Deploy to prod
 
 on:
@@ -23,6 +25,7 @@ jobs:
     - name: Install
       run: npm install
     
+    # build the vuepress docs
     - name: Build
       run: npm run docs:build
 
@@ -33,5 +36,6 @@ jobs:
         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         aws-region: ap-south-1
 
-    - name: Build and deploy static site to S3 bucket
+    # sync with the given S3 bucket
+    - name: Deploy static site to S3 bucket
       run: aws s3 sync ./docs/.vuepress/dist s3://plio-docs --delete --acl public-read
