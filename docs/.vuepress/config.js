@@ -8,7 +8,6 @@ module.exports = {
         sidebar: [
         '/',
         '/getting-started/',
-        '/guide/',
         '/plio-for-teams/',
         '/whats-new/',
         ]
