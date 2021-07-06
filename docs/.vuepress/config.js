@@ -9,7 +9,6 @@ module.exports = {
         '/',
         '/getting-started/',
         '/community/',
-        '/guide/',
         '/plio-for-teams/',
         '/whats-new/',
         ]
