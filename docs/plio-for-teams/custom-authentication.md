@@ -10,7 +10,7 @@ It is your responsibility to ensure that you don't share this API key with anyon
 
 :::
 
-### Bypass Plio's authentication
+### Use your own authentication system with Plio
 
 This is how a typical plio link looks like: 
 
