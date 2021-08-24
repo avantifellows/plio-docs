@@ -8,8 +8,8 @@ We provide the following support for organizations:
 -  An organizational workspace to house all the plios created by the organization members.
 -  Members of a workspace can view/edit/analyse the plios created by other members.
 -  [Integration with BigQuery](#data-analysis-using-bigquery) to enable you to build custom dashboards.
--  [Custom authentication](#custom-authentication) in case you want your viewers to bypass Plio's authentication layer.
+-  [Single Sign-On (SSO)](#single-sign-on-sso) in case you want your viewers to bypass Plio's authentication layer.
 
 !!!include(./docs/plio-for-teams/getting-started.md)!!!
 !!!include(./docs/plio-for-teams/data-bigquery.md)!!!
-!!!include(./docs/plio-for-teams/custom-authentication.md)!!!
+!!!include(./docs/plio-for-teams/single-sign-on.md)!!!
