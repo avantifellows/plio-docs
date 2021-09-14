@@ -10,6 +10,8 @@ We provide the following support for organizations:
 -  [Integration with BigQuery](#data-analysis-using-bigquery) to enable you to build custom dashboards.
 -  [Single Sign-On (SSO)](#single-sign-on-sso) in case you want your viewers to bypass Plio's authentication layer.
 
+Fill [this](https://docs.google.com/forms/d/e/1FAIpQLSdSq3KZOTEAnNsE5BfRPNPpmROQQ3gPFYJS8xJ9RB2j5LsAQQ/viewform) form to apply for an organizational workspace.
+
 !!!include(./docs/plio-for-teams/getting-started.md)!!!
 !!!include(./docs/plio-for-teams/data-bigquery.md)!!!
 !!!include(./docs/plio-for-teams/single-sign-on.md)!!!
