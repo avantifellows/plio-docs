@@ -47,7 +47,7 @@ You can also come back later and share the link to the plio from both the Editor
 ![share from home](./images/share_home.png)
 
 ## Embedding a plio
-You can embed your plio on your own website too. Once you hit `Publish`, you will see an `Embed` button as shown below.
+You can embed your plio in your website too. Once you hit `Publish`, you will see an `Embed` button as shown below.
 
 ![dialog after publishing](./images/published_dialog.png)
 
@@ -55,7 +55,7 @@ Upon clicking the `Embed` button, you will get a pop-up containing the embed cod
 
 ![embed dialog](./images/embed_dialog.png)
 
-You can simply add the copied embed code to your website and voilà, the plio will be embedded on your website. You can also come back later and find the embed code from the Editor by clicking on the `Embed` button shown below:
+You can simply add the copied embed code to your website and voilà, the plio will be embedded in your website. You can also come back later and find the embed code from the Editor by clicking on the `Embed` button shown below:
 
 ![embed from editor](./images/embed_editor.png)
 
