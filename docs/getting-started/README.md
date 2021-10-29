@@ -95,3 +95,29 @@ Watch this video to know more about the Plio Dashboard.
 The whole product guide is available in the form of videos [here](https://www.youtube.com/channel/UCpYqVAKRFG4hFCglzRyFiaQ/videos).
 
 :::
+
+## Draft and Published Modes
+
+A plio can be in one of two modes - Draft or Published. 
+
+A plio is in the draft mode when you start the creation process. 
+
+![draft mode](./images/draft.png)
+
+In this mode, you can add questions to the video, options to questions, edit the type for existing questions and their timestamps, and a lot more. 
+
+Once you are done adding all questions, you can click on the “Publish Plio” button. 
+
+![published button](./images/publish-button.png)
+
+On clicking the publish button, you will be asked to confirm this step. This is because once a plio is published, you will not be able to edit the following: the video, the number of questions, the number of options in each question and the time for each question. You can also preview the plio before publishing it and experience it the same way a student would.
+
+![published confirmation](./images/publish-confirmation.png)
+
+Once the plio is published, the plio link will be generated and you will be prompted with the option to share, play or embed the plio or go back to the home page.
+
+![published dialog](./images/published-dialog.png)
+
+In the published mode, you can only change the text of the questions or options. 
+
+![published mode](./images/published.png)
