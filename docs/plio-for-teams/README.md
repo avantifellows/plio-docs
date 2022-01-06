@@ -13,7 +13,6 @@ We provide the following support for organizations:
 
 Fill [this](https://docs.google.com/forms/d/e/1FAIpQLSdSq3KZOTEAnNsE5BfRPNPpmROQQ3gPFYJS8xJ9RB2j5LsAQQ/viewform) form to apply for an organizational workspace.
 
-!!!include(./docs/plio-for-teams/getting-started.md)!!!
 !!!include(./docs/plio-for-teams/data-bigquery.md)!!!
 !!!include(./docs/plio-for-teams/single-sign-on.md)!!!
 !!!include(./docs/plio-for-teams/mapping-data-to-users.md)!!!
