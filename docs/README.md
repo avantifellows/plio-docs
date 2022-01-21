@@ -1,6 +1,6 @@
 # What is Plio?
 
-Plio is an open-source tool that unlocks the true potential of your videos. This tool enables you to make **ANY** YouTube video interactive by adding questions between the video. Questions are one of the many types of interaction that can be added to Plio.
+Plio is an open-source tool that enables you to convert videos into interactive lessons by adding questions between the video and gather a detailed understanding of how your students are learning. Questions are one of the many types of interaction that can be added to Plio.
 
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/ONG1J_PkGSE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

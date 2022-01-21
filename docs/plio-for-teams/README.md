@@ -10,9 +10,11 @@ We provide the following support for organizations:
 -  [Integration with BigQuery](#data-analysis-using-bigquery) to enable you to build custom dashboards.
 -  [Single Sign-On (SSO)](#single-sign-on-sso) in case you want your viewers to bypass Plio's authentication layer.
 -  [Mapping data to users](#mapping-data-to-users) if you want to know the true identities of your users in the downloaded report for each Plio.
+-  [Copy Plios from Personal Workspace](#copy-plios-from-personal-workspace) in case you or the creators in your team have already created a plio in their personal workspace.
 
 Fill [this](https://docs.google.com/forms/d/e/1FAIpQLSdSq3KZOTEAnNsE5BfRPNPpmROQQ3gPFYJS8xJ9RB2j5LsAQQ/viewform) form to apply for an organizational workspace.
 
 !!!include(./docs/plio-for-teams/data-bigquery.md)!!!
 !!!include(./docs/plio-for-teams/single-sign-on.md)!!!
 !!!include(./docs/plio-for-teams/mapping-data-to-users.md)!!!
+!!!include(./docs/plio-for-teams/copy-plios-from-personal.md)!!!
