@@ -13,7 +13,7 @@ It is your responsibility to ensure that you don't share this API key with anyon
 This is how a typical plio link looks like: 
 
 ```:no-line-numbers
-https://app.plio.in/#/play/r7R7ErAy2a
+https://app.plio.in/play/r7R7ErAy2a
 ```
 
 To bypass plio's authentication, you need to add 2 parameters to the query:
@@ -23,7 +23,7 @@ To bypass plio's authentication, you need to add 2 parameters to the query:
 The modified link should look like:
 
 ```:no-line-numbers
-https://app.plio.in/#/play/r7R7ErAy2a?unique_id=UNIQUE_ID&api_key=YOUR_API_KEY
+https://app.plio.in/play/r7R7ErAy2a?unique_id=UNIQUE_ID&api_key=YOUR_API_KEY
 ```
 
 You need to share this link with your viewers instead of the usual plio link and your viewers will be able to access the plio without having to authenticate.

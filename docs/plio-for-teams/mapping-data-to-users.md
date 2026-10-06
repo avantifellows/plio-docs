@@ -9,7 +9,7 @@ For now, since we are manually vetting each organisation that is using the organ
 
 ::: warning NOTE
 
-Ensure that you are on on the organisational plan before proceeding.
+Ensure that you are on the organisational plan before proceeding.
 
 :::
 
