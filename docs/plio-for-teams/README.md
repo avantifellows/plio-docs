@@ -7,14 +7,16 @@ Plio has been built to support teams. We provide a separate workspace for teams 
 We provide the following support for organizations:
 -  An organizational workspace to house all the plios created by the organization members.
 -  Members of a workspace can view/edit/analyse the plios created by other members.
--  [Integration with BigQuery](#data-analysis-using-bigquery) to enable you to build custom dashboards.
+-  [Know exactly what data is collected](#what-data-does-plio-collect) when your students watch a plio, and how the numbers in your reports are calculated.
+-  [A recurring export to BigQuery](#data-analysis-using-bigquery), on request, to enable you to build custom dashboards.
 -  [Single Sign-On (SSO)](#single-sign-on-sso) in case you want your viewers to bypass Plio's authentication layer.
 -  [Access control](#access-control-for-workspace-settings) to ensure that only the admins can update your workspace settings. 
 -  [Mapping data to users](#mapping-data-to-users) if you want to know the true identities of your users in the downloaded report for each Plio.
 -  [Copy Plios from Personal Workspace](#copy-plios-from-personal-workspace) in case you or the creators in your team have already created a plio in their personal workspace.
 
-Fill [this](https://docs.google.com/forms/d/e/1FAIpQLSdSq3KZOTEAnNsE5BfRPNPpmROQQ3gPFYJS8xJ9RB2j5LsAQQ/viewform) form to apply for an organizational workspace.
+Fill [this](https://docs.google.com/forms/d/e/1FAIpQLSdSq3KZOTEAnNsE5BfRPNPpmROQQ3gPFYJS8xJ9RB2j5LsAQQ/viewform) form to apply for an organizational workspace. Organizational workspaces can also, on request, get a [recurring export of their Plio data to BigQuery](#data-analysis-using-bigquery) to build their own dashboards on.
 
+!!!include(./docs/plio-for-teams/data-collected.md)!!!
 !!!include(./docs/plio-for-teams/data-bigquery.md)!!!
 !!!include(./docs/plio-for-teams/single-sign-on.md)!!!
 !!!include(./docs/plio-for-teams/settings-access-control.md)!!!

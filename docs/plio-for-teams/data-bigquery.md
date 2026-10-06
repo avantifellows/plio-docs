@@ -1,5 +1,9 @@
 ## Data analysis using BigQuery
 
-Since Plio is a generic tool, we will only prioritize adding dashboards to our platform, that are useful for the majority of our users. It is possible that you might not find some of them useful and/or might want dashboards customized to your use case. To enable you to do that, we update all the data captured from the plios created in your organizational workspace to a BigQuery database specific to your organization every hour. You can connect this BigQuery database with your favourite dashboarding tool like Looker Studio, etc. to make dashboards specific to your use case. 
+Plio's dashboard covers the needs that are most common across our users. If you need more, for example dashboards customised to your programme, we can help.
 
-To get access to the BigQuery database for your organization, simply write to us over email or on [Discord](../community/README.md).
+On request, we can set up a recurring sync of your organization workspace's Plio data into BigQuery. The sync runs roughly every 6 hours and is managed by the Plio team. You can then build your own dashboards on top of it (for example, with Looker Studio) or join it with your other data.
+
+The data contains the same kinds of information described in [What data does Plio collect?](#what-data-does-plio-collect): plios, questions, sessions, answers and events, for the plios in your organization's workspace.
+
+To request it, reach out to us on [Discord](../community/README.md).
